@@ -1,0 +1,67 @@
+/* ===== Layout: Sheet / Header / Main / Footer ===== */
+.sheet {
+  max-width: 1180px;
+  margin: 32px auto;
+  background: #FFFFFF;
+  border: 2px solid var(--ink);
+  box-shadow: 6px 6px 0 var(--line-blue);
+}
+
+header {
+  border-bottom: 2px solid var(--ink);
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+header .title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+header .eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--line-blue);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+header .sub {
+  font-size: 13px;
+  color: #55606B;
+  max-width: 46ch;
+}
+
+.stamp {
+  font-family: var(--mono);
+  font-size: 11px;
+  border: 1.5px solid var(--ink);
+  padding: 6px 10px;
+  text-align: right;
+  line-height: 1.5;
+  color: var(--line-blue-dim);
+}
+
+main { padding: 24px 28px 32px; }
+
+footer {
+  border-top: 2px solid var(--ink);
+  padding: 12px 28px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: #8A9199;
+  display: flex;
+  justify-content: space-between;
+}
