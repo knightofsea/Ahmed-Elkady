@@ -1,0 +1,13 @@
+/* ===== Design Tokens ===== */
+:root {
+  --ink: #101820;
+  --paper: #F7F5F0;
+  --line-blue: #1D4E89;
+  --line-blue-dim: #4B6C8C;
+  --accent: #C4622D;
+  --grid-line: #D8D2C4;
+  --ok-green: #2E6E4E;
+  --warn-red: #A63A2E;
+  --mono: 'IBM Plex Mono', 'Courier New', monospace;
+  --sans: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+}
